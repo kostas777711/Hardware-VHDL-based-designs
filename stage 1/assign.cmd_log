@@ -1,0 +1,6 @@
+xst -ise "C:/Users/KAT091/Desktop/stage 1/assign1.ise" -intstyle ise -ifn "C:/Users/KAT091/Desktop/stage 1/assign.xst" -ofn "C:/Users/KAT091/Desktop/stage 1/assign.syr"
+ngdbuild -ise "C:/Users/KAT091/Desktop/stage 1/assign1.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s200-ft256-4 "assign.ngc" assign.ngd
+map -ise "C:/Users/KAT091/Desktop/stage 1/assign1.ise" -intstyle ise -p xc3s200-ft256-4 -cm area -pr off -k 4 -c 100 -o assign_map.ncd assign.ngd assign.pcf
+par -ise "C:/Users/KAT091/Desktop/stage 1/assign1.ise" -w -intstyle ise -ol std -t 1 assign_map.ncd assign.ncd assign.pcf
+trce -ise "C:/Users/KAT091/Desktop/stage 1/assign1.ise" -intstyle ise -v 3 -s 4 -xml assign assign.ncd -o assign.twr assign.pcf
+bitgen -ise "C:/Users/KAT091/Desktop/stage 1/assign1.ise" -intstyle ise -f assign.ut assign.ncd

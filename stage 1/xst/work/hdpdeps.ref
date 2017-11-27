@@ -1,0 +1,13 @@
+V3 7
+FL "C:/Users/KAT091/Desktop/stage 1/assign.vhd" 2010/12/06.19:33:20 K.39
+EN work/assign 1291815483 FL "C:/Users/KAT091/Desktop/stage 1/assign.vhd" \
+      PB ieee/std_logic_1164 1217055545 PB ieee/STD_LOGIC_UNSIGNED 1217055547
+AR work/assign/Behavioral 1291815484 \
+      FL "C:/Users/KAT091/Desktop/stage 1/assign.vhd" EN work/assign 1291815483 \
+      CP display
+FL "C:/Users/KAT091/Desktop/stage 1/display.vhd" 2010/12/06.19:32:58 K.39
+EN work/display 1291815481 FL "C:/Users/KAT091/Desktop/stage 1/display.vhd" \
+      PB ieee/std_logic_1164 1217055545 PB ieee/std_logic_arith 1217055546 \
+      PB ieee/STD_LOGIC_UNSIGNED 1217055547
+AR work/display/Behavioral 1291815482 \
+      FL "C:/Users/KAT091/Desktop/stage 1/display.vhd" EN work/display 1291815481

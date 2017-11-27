@@ -1,0 +1,41 @@
+//! **************************************************************************
+// Written by: Map K.39 on Wed Dec 08 19:38:48 2010
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "switches<0>" LOCATE = SITE "F12" LEVEL 1;
+COMP "switches<1>" LOCATE = SITE "G12" LEVEL 1;
+COMP "switches<2>" LOCATE = SITE "H14" LEVEL 1;
+COMP "switches<3>" LOCATE = SITE "H13" LEVEL 1;
+COMP "switches<4>" LOCATE = SITE "J14" LEVEL 1;
+COMP "switches<5>" LOCATE = SITE "J13" LEVEL 1;
+COMP "switches<6>" LOCATE = SITE "K14" LEVEL 1;
+COMP "switches<7>" LOCATE = SITE "K13" LEVEL 1;
+COMP "leds<0>" LOCATE = SITE "K12" LEVEL 1;
+COMP "leds<1>" LOCATE = SITE "P14" LEVEL 1;
+COMP "leds<2>" LOCATE = SITE "L12" LEVEL 1;
+COMP "leds<3>" LOCATE = SITE "N14" LEVEL 1;
+COMP "leds<4>" LOCATE = SITE "P13" LEVEL 1;
+COMP "segments<0>" LOCATE = SITE "E14" LEVEL 1;
+COMP "leds<5>" LOCATE = SITE "N12" LEVEL 1;
+COMP "segments<1>" LOCATE = SITE "G13" LEVEL 1;
+COMP "leds<6>" LOCATE = SITE "P12" LEVEL 1;
+COMP "segments<2>" LOCATE = SITE "N15" LEVEL 1;
+COMP "leds<7>" LOCATE = SITE "P11" LEVEL 1;
+COMP "segments<3>" LOCATE = SITE "P15" LEVEL 1;
+COMP "segments<4>" LOCATE = SITE "R16" LEVEL 1;
+COMP "buttons<0>" LOCATE = SITE "M13" LEVEL 1;
+COMP "segments<5>" LOCATE = SITE "F13" LEVEL 1;
+COMP "buttons<1>" LOCATE = SITE "M14" LEVEL 1;
+COMP "segments<6>" LOCATE = SITE "N16" LEVEL 1;
+COMP "buttons<2>" LOCATE = SITE "L13" LEVEL 1;
+COMP "segments<7>" LOCATE = SITE "P16" LEVEL 1;
+COMP "buttons<3>" LOCATE = SITE "L14" LEVEL 1;
+COMP "clock" LOCATE = SITE "T9" LEVEL 1;
+COMP "digit<0>" LOCATE = SITE "D14" LEVEL 1;
+COMP "digit<1>" LOCATE = SITE "G14" LEVEL 1;
+COMP "digit<2>" LOCATE = SITE "F14" LEVEL 1;
+COMP "digit<3>" LOCATE = SITE "E13" LEVEL 1;
+NET "clock_BUFGP/IBUFG" BEL "clock_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

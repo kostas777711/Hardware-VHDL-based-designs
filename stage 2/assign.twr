@@ -1,0 +1,217 @@
+--------------------------------------------------------------------------------
+Release 10.1.03 Trace  (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\10.1\ISE\bin\nt\unwrapped\trce.exe -ise
+C:/Users/KAT091/Desktop/stage 2/assign.ise -intstyle ise -v 3 -s 4 -xml assign
+assign.ncd -o assign.twr assign.pcf
+
+Design file:              assign.ncd
+Physical constraint file: assign.pcf
+Device,package,speed:     xc3s200,ft256,-4 (PRODUCTION 1.39 2008-01-09)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock buttons<0>
+------------+------------+------------+------------------+--------+
+            |  Setup to  |  Hold to   |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+switches<0> |    0.366(F)|    1.808(F)|leds_7_cmp_eq0001 |   0.000|
+switches<1> |    0.159(F)|    1.973(F)|leds_7_cmp_eq0001 |   0.000|
+switches<2> |    0.422(F)|    1.699(F)|leds_7_cmp_eq0001 |   0.000|
+switches<3> |   -0.081(F)|    2.101(F)|leds_7_cmp_eq0001 |   0.000|
+switches<4> |   -0.891(F)|    2.870(F)|leds_7_cmp_eq0001 |   0.000|
+switches<5> |   -0.560(F)|    2.605(F)|leds_7_cmp_eq0001 |   0.000|
+switches<6> |   -0.726(F)|    2.719(F)|leds_7_cmp_eq0001 |   0.000|
+switches<7> |   -1.107(F)|    3.271(F)|leds_7_cmp_eq0001 |   0.000|
+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock buttons<1>
+------------+------------+------------+------------------+--------+
+            |  Setup to  |  Hold to   |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+switches<0> |    0.023(F)|    2.236(F)|leds_7_cmp_eq0001 |   0.000|
+switches<1> |   -0.184(F)|    2.401(F)|leds_7_cmp_eq0001 |   0.000|
+switches<2> |    0.079(F)|    2.127(F)|leds_7_cmp_eq0001 |   0.000|
+switches<3> |   -0.424(F)|    2.529(F)|leds_7_cmp_eq0001 |   0.000|
+switches<4> |   -1.234(F)|    3.298(F)|leds_7_cmp_eq0001 |   0.000|
+switches<5> |   -0.903(F)|    3.033(F)|leds_7_cmp_eq0001 |   0.000|
+switches<6> |   -1.069(F)|    3.147(F)|leds_7_cmp_eq0001 |   0.000|
+switches<7> |   -1.450(F)|    3.699(F)|leds_7_cmp_eq0001 |   0.000|
+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock buttons<2>
+------------+------------+------------+------------------+--------+
+            |  Setup to  |  Hold to   |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+switches<0> |    0.233(F)|    1.974(F)|leds_7_cmp_eq0001 |   0.000|
+switches<1> |    0.026(F)|    2.139(F)|leds_7_cmp_eq0001 |   0.000|
+switches<2> |    0.289(F)|    1.865(F)|leds_7_cmp_eq0001 |   0.000|
+switches<3> |   -0.214(F)|    2.267(F)|leds_7_cmp_eq0001 |   0.000|
+switches<4> |   -1.024(F)|    3.036(F)|leds_7_cmp_eq0001 |   0.000|
+switches<5> |   -0.693(F)|    2.771(F)|leds_7_cmp_eq0001 |   0.000|
+switches<6> |   -0.859(F)|    2.885(F)|leds_7_cmp_eq0001 |   0.000|
+switches<7> |   -1.240(F)|    3.437(F)|leds_7_cmp_eq0001 |   0.000|
+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock buttons<3>
+------------+------------+------------+------------------+--------+
+            |  Setup to  |  Hold to   |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+switches<0> |    0.616(F)|    1.495(F)|leds_7_cmp_eq0001 |   0.000|
+switches<1> |    0.409(F)|    1.660(F)|leds_7_cmp_eq0001 |   0.000|
+switches<2> |    0.672(F)|    1.386(F)|leds_7_cmp_eq0001 |   0.000|
+switches<3> |    0.169(F)|    1.788(F)|leds_7_cmp_eq0001 |   0.000|
+switches<4> |   -0.641(F)|    2.557(F)|leds_7_cmp_eq0001 |   0.000|
+switches<5> |   -0.310(F)|    2.292(F)|leds_7_cmp_eq0001 |   0.000|
+switches<6> |   -0.476(F)|    2.406(F)|leds_7_cmp_eq0001 |   0.000|
+switches<7> |   -0.857(F)|    2.958(F)|leds_7_cmp_eq0001 |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock buttons<0> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+segments<0> |   14.798(F)|leds_7_cmp_eq0001 |   0.000|
+segments<1> |   14.370(F)|leds_7_cmp_eq0001 |   0.000|
+segments<2> |   15.525(F)|leds_7_cmp_eq0001 |   0.000|
+segments<3> |   15.344(F)|leds_7_cmp_eq0001 |   0.000|
+segments<4> |   15.556(F)|leds_7_cmp_eq0001 |   0.000|
+segments<5> |   14.808(F)|leds_7_cmp_eq0001 |   0.000|
+segments<6> |   14.060(F)|leds_7_cmp_eq0001 |   0.000|
+------------+------------+------------------+--------+
+
+Clock buttons<1> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+segments<0> |   15.226(F)|leds_7_cmp_eq0001 |   0.000|
+segments<1> |   14.798(F)|leds_7_cmp_eq0001 |   0.000|
+segments<2> |   15.953(F)|leds_7_cmp_eq0001 |   0.000|
+segments<3> |   15.772(F)|leds_7_cmp_eq0001 |   0.000|
+segments<4> |   15.984(F)|leds_7_cmp_eq0001 |   0.000|
+segments<5> |   15.236(F)|leds_7_cmp_eq0001 |   0.000|
+segments<6> |   14.488(F)|leds_7_cmp_eq0001 |   0.000|
+------------+------------+------------------+--------+
+
+Clock buttons<2> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+segments<0> |   14.964(F)|leds_7_cmp_eq0001 |   0.000|
+segments<1> |   14.536(F)|leds_7_cmp_eq0001 |   0.000|
+segments<2> |   15.691(F)|leds_7_cmp_eq0001 |   0.000|
+segments<3> |   15.510(F)|leds_7_cmp_eq0001 |   0.000|
+segments<4> |   15.722(F)|leds_7_cmp_eq0001 |   0.000|
+segments<5> |   14.974(F)|leds_7_cmp_eq0001 |   0.000|
+segments<6> |   14.226(F)|leds_7_cmp_eq0001 |   0.000|
+------------+------------+------------------+--------+
+
+Clock buttons<3> to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+segments<0> |   14.485(F)|leds_7_cmp_eq0001 |   0.000|
+segments<1> |   14.057(F)|leds_7_cmp_eq0001 |   0.000|
+segments<2> |   15.212(F)|leds_7_cmp_eq0001 |   0.000|
+segments<3> |   15.031(F)|leds_7_cmp_eq0001 |   0.000|
+segments<4> |   15.243(F)|leds_7_cmp_eq0001 |   0.000|
+segments<5> |   14.495(F)|leds_7_cmp_eq0001 |   0.000|
+segments<6> |   13.747(F)|leds_7_cmp_eq0001 |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock buttons<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+buttons<0>     |         |         |    2.535|    2.535|
+buttons<1>     |         |         |    2.579|    2.579|
+buttons<2>     |         |         |    2.003|    2.003|
+buttons<3>     |         |         |    1.698|    1.698|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock buttons<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+buttons<0>     |         |         |    2.192|    2.192|
+buttons<1>     |         |         |    2.236|    2.236|
+buttons<2>     |         |         |    1.660|    1.660|
+buttons<3>     |         |         |    1.355|    1.355|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock buttons<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+buttons<0>     |         |         |    2.402|    2.402|
+buttons<1>     |         |         |    2.446|    2.446|
+buttons<2>     |         |         |    1.870|    1.870|
+buttons<3>     |         |         |    1.565|    1.565|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock buttons<3>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+buttons<0>     |         |         |    2.785|    2.785|
+buttons<1>     |         |         |    2.829|    2.829|
+buttons<2>     |         |         |    2.253|    2.253|
+buttons<3>     |         |         |    1.948|    1.948|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clock
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+buttons<0>     |         |   19.209|         |         |
+buttons<1>     |         |   19.209|         |         |
+buttons<2>     |         |   19.209|         |         |
+buttons<3>     |         |   19.209|         |         |
+clock          |   10.208|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Wed Dec 08 15:41:27 2010 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 95 MB
+
+
+

@@ -1,0 +1,17 @@
+V3 11
+FL "C:/Users/KAT091.ADF/Desktop/stage 3/assign.vhd" 2010/12/08.14:24:36 K.39
+EN work/assign 1291838387 FL "C:/Users/KAT091.ADF/Desktop/stage 3/assign.vhd" \
+      PB ieee/std_logic_1164 1217055545 PB ieee/STD_LOGIC_UNSIGNED 1217055547
+AR work/assign/Behavioral 1291838388 \
+      FL "C:/Users/KAT091.ADF/Desktop/stage 3/assign.vhd" EN work/assign 1291838387 \
+      CP display
+FL "C:/Users/KAT091.ADF/Desktop/stage 3/display.vhd" 2010/12/08.14:21:54 K.39
+EN work/display 1291838385 FL "C:/Users/KAT091.ADF/Desktop/stage 3/display.vhd" \
+      PB ieee/std_logic_1164 1217055545 PB ieee/std_logic_arith 1217055546 \
+      PB ieee/STD_LOGIC_UNSIGNED 1217055547
+AR work/display/Behavioral 1291838386 \
+      FL "C:/Users/KAT091.ADF/Desktop/stage 3/display.vhd" EN work/display 1291838385
+FL "C:/Users/KAT091/Desktop/stage 3 fucked/display.vhd" 2010/12/08.14:21:53 K.39
+FL "C:/Users/KAT091/Desktop/stage 3/assign.vhd" 2010/12/08.14:24:35 K.39
+FL "C:/Users/KAT091/Desktop/stage 3/assign/assign.vhd" 2010/12/08.14:24:35 K.39
+FL "C:/Users/KAT091/Desktop/stage 3/display.vhd" 2010/12/08.14:21:53 K.39
